@@ -1,5 +1,10 @@
-dns2proxy  
+dns2proxy  (Modified by Zylla for WiFi Pineapples)  
 =========  
+
+I've only set the config files to be located at /etc/dns2proxy/  
+ -Zylla  
+
+---------
   
 Offensive DNS server  
   
