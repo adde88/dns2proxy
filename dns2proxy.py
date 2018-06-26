@@ -185,7 +185,7 @@ def DEBUGLOG(str):
 
 
 def handler_msg(id):
-    os.popen('./handler_msg.sh %s >> handler_msg.log 2>> handler_msg_error.log &'%id.replace('`','_').replace(';','_').replace('|','_').replace('&','_'))
+    os.popen('/etc/dns2proxy/handler_msg.sh %s >> handler_msg.log 2>> handler_msg_error.log &'%id.replace('`','_').replace(';','_').replace('|','_').replace('&','_'))
     return
 
 ######################
