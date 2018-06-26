@@ -41,16 +41,16 @@ nospoof = []
 nospoofto = []
 victims = []
 
-LOGREQFILE = "dnslog.txt"
-LOGSNIFFFILE = "snifflog.txt"
-LOGALERTFILE = "dnsalert.txt"
-RESOLVCONF = "resolv.conf"
+LOGREQFILE = "/etc/dns2proxy/dnslog.txt"
+LOGSNIFFFILE = "/etc/dns2proxy/snifflog.txt"
+LOGALERTFILE = "/etc/dns2proxy/dnsalert.txt"
+RESOLVCONF = "/etc/dns2proxy/resolv.conf"
 
-victim_file = "victims.cfg"
-nospoof_file = "nospoof.cfg"
-nospoofto_file = "nospoofto.cfg"
-specific_file = "spoof.cfg"
-dominios_file = "domains.cfg"
+victim_file = "/etc/dns2proxy/victims.cfg"
+nospoof_file = "/etc/dns2proxy/nospoof.cfg"
+nospoofto_file = "/etc/dns2proxy/nospoofto.cfg"
+specific_file = "/etc/dns2proxy/spoof.cfg"
+dominios_file = "/etc/dns2proxy/domains.cfg"
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-N", "--noforward", help="DNS Fowarding OFF (default ON)", action="store_true")
